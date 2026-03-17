@@ -1,0 +1,59 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore Kotlin plugin data
+.kotlin
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Test reports
+test-results/
+reports/
+
+# Generated files
+out/
+
+# Local environment
+.env
+
+# Others
+*.tmp
+*.bak
+*.old
+
+# Ignore distribution archives
+dist/
+distributions/
+
+# Ignore annotation processor generated sources
+generated/
+
+# Ignore temporary files
+*.temp
+~$*
+
+# Ignore gradle properties local override
+.gradle-local.properties
