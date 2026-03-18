@@ -3,7 +3,7 @@ package fr.merger;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Writter {
+public class Writer {
 
     public void writeFile(String content, String filePath) {
         try {
